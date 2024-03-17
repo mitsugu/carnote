@@ -47,4 +47,16 @@ a.external:after {
 .clear {
   clear:both;
 }
-
+dl.environ {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+}
+dl.environ> dt {
+	width:6%;
+	font-weight:bold;
+}
+dl.environ> dd {
+	width:84%;
+	padding-left:0em;
+}
